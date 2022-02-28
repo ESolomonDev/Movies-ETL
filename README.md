@@ -1,1 +1,2 @@
 # Movies-ETL
+This repository is an example of ETL done to prepare for a mock hack-a-thon for a streaming service (IE Netflix, Hulu, AmazonPrime ect) where data from a web scrape is then stored into a CSV file and then Extracted and Transformed using python and finally loaded into a PostgreSQL server. The data is scrubbed and transformed using regex expressions to change data types of data within the data set and then uses the sqlalchemy python library to upload the data to the SQL server.
