@@ -1,8 +1,13 @@
 #config file
 config.py
 
-#trying to ignore .csv
-*.csv
+#ignore .csv
+
+#use this to ignore all .csv
+#*.csv
+ratings.csv
+
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
